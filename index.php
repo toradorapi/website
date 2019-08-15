@@ -109,6 +109,7 @@
             } else if(!$_GET['char']) {
                 echo("<p class='animated fadein faster'>What character do you want to see? (More comming soon)</p>");
                 echo("<a class='animated fadein faster delay-500ms' href='?type=".$_GET['type']."&anim=".$_GET['anim']."&char=taiga'>Taiga</a>");
+                echo("<a class='animated fadein faster delay-500ms' href='?type=".$_GET['type']."&anim=".$_GET['anim']."&char=ami'>Ami</a>");
             } else {
                 echo("<p class='animated infinite tada'>An error occured.</p>");
             }
